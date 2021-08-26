@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap')
+
+// global variables
+$container-max-width: 1260px
+
+
+// global classes
+
+// main
+.v-application
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+    position: relative
+    font-family: 'Open Sans', sans-serif
+
+// containers
+.main-container
+    max-width: $container-max-width
+    margin: 0 auto
+    width: 85%
+    @media (max-width: 992px)
+        width: 92%
+
+// images
+.img-cover
+    width: 100%
+    height: 100%
+    object-fit: cover
+    object-position: center
+
+.box-full-size
+    width: 100%
+    height: 100%
+    overflow: hidden
+
+// individual
+.overflow-hidden
+    overflow: hidden
+
+// transitions
+.element-transition
+    transition: all ease-in-out .2s
+
